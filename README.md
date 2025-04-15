@@ -17,7 +17,6 @@
 - **HTML5**: Structure and layout.
 - **CSS3**: Styling and responsive design.
 - **JavaScript (ES6+)**: Dynamic UI interactions.
-- **Bootstrap**: Enhancing responsiveness and UI components.
 
 ### Backend:
 - **Java (JSE, JEE)**: Backend logic and server-side scripting.
@@ -73,11 +72,11 @@ tap-foods/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/tapfoods/
-│   │   │   ├── controller/
+│   │   │   ├── DAO/
 │   │   │   ├── model/
-│   │   │   ├── repository/
-│   │   │   ├── service/
-│   │   │   └── TapFoodsApplication.java
+│   │   │   ├── DAOImpl/
+│   │   │   ├── servlets/
+│   │   │   └── utility
 │   │   ├── resources/
 │   │   │   ├── static/ (CSS, JS, images)
 │   │   │   ├── templates/ (HTML views)
